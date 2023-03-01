@@ -1,6 +1,6 @@
 # personal
-.py
-.xlsx
+*.py
+*.xlsx
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
