@@ -139,3 +139,9 @@ dmypy.json
 .pptx
 .ppt
 .key
+
+# api
+
+## 태블로 api관리 
+### hyper API
+태블로 api관리/*
