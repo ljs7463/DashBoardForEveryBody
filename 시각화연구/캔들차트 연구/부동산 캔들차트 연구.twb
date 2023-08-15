@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='aide_apartment_price_origin(aide)' inline='true' name='federated.1n8ic6b0a4y85t15o9hmp16xq244' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BigQuery' name='bigquery.0xg307m0lxjr631afcumy08s1vqw'>
+            <connection CATALOG='aidepartners' EXECCATALOG='aidepartners' authentication='oauth' class='bigquery' connection-dialect='google-sql' project='aidepartners' schema='aide' server-oauth='' username='nevergiveup7463@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='bigquery.0xg307m0lxjr631afcumy08s1vqw' name='aide_apartment_price_origin' table='[aidepartners.aide].[aide_apartment_price_origin]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='bigquery.0xg307m0lxjr631afcumy08s1vqw' name='aide_apartment_price_origin' table='[aidepartners.aide].[aide_apartment_price_origin]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>complexNo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[complexNo]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>complexNo</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complexName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[complexName]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>complexName</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sidoCode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sidoCode]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>sidoCode</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sigunguCode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sigunguCode]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>sigunguCode</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bdongCode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[bdongCode]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>bdongCode</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>address</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>detailAddress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[detailAddress]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>detailAddress</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalHouseholdCount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalHouseholdCount]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>totalHouseholdCount</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>useApproveYear</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[useApproveYear]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>useApproveYear</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pyeongNo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pyeongNo]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>pyeongNo</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>supplyArea</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[supplyArea]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>supplyArea</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>supplyPyeong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[supplyPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>supplyPyeong</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jeonyongArea</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jeonyongArea]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>jeonyongArea</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jeonyongPyeong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jeonyongPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>jeonyongPyeong</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areaSixGroupNo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[areaSixGroupNo]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>areaSixGroupNo</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>householdCountByPyeong</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[householdCountByPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>householdCountByPyeong</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tradeType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tradeType]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>tradeType</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tradeYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tradeYear]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>tradeYear</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tradeMonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tradeMonth]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>tradeMonth</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contractDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[contractDate]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>contractDate</remote-alias>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>floor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[floor]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>floor</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dealPrice</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dealPrice]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>dealPrice</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pricePerSupplyPyeong</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pricePerSupplyPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>pricePerSupplyPyeong</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>averagePyeong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[averagePyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>averagePyeong</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>averagePrice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[averagePrice]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>averagePrice</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thresholdUpperPyeong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thresholdUpperPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>thresholdUpperPyeong</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thresholdUnderPyeong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thresholdUnderPyeong]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>thresholdUnderPyeong</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thresholdUpperPrice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thresholdUpperPrice]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>thresholdUpperPrice</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thresholdUnderPrice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thresholdUnderPrice]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>thresholdUnderPrice</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highFloor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[highFloor]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>highFloor</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isFloor</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isFloor]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>isFloor</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isProcessing1</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isProcessing1]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>isProcessing1</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isProcessing2</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isProcessing2]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>isProcessing2</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isProcessing3</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isProcessing3]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>isProcessing3</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interpolate</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[interpolate]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>interpolate</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[yearMonth]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>yearMonth</remote-alias>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isReal</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isReal]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>isReal</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>finalProcessing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[finalProcessing]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>finalProcessing</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predict</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[predict]</local-name>
+            <parent-name>[aide_apartment_price_origin]</parent-name>
+            <remote-alias>predict</remote-alias>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='고가' datatype='integer' name='[Calculation_1291970202008145924]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED  DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo]:MAX([dealPrice])}' />
+      </column>
+      <column caption='저가' datatype='integer' name='[Calculation_1291970202008223749]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo]: MIN([dealPrice])}' />
+      </column>
+      <column caption='시작가 날짜' datatype='date' name='[Calculation_1291970202011406344]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='{FIXED  DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo] : MIN([contractDate])}' />
+      </column>
+      <column caption='종가 날짜' datatype='date' name='[Calculation_1291970202011693065]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='{FIXED  DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo] : MAX([contractDate])}' />
+      </column>
+      <column caption='시작가' datatype='integer' name='[Calculation_1291970202011779082]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [contractDate] = [Calculation_1291970202011406344] THEN [dealPrice] END' />
+      </column>
+      <column caption='종가' datatype='integer' name='[Calculation_1291970202011901963]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [contractDate] = [Calculation_1291970202011693065] THEN [dealPrice] END' />
+      </column>
+      <column caption='Stick Color' datatype='string' name='[Calculation_1291970202012024845]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF AVG([Calculation_1291970202011779082]) &gt; AVG([Calculation_1291970202011901963]) THEN &apos;Blue&apos;&#13;&#10;ELSEIF AVG([Calculation_1291970202011779082]) &lt; AVG([Calculation_1291970202011901963]) THEN &apos;Red&apos;&#13;&#10;ELSEIF AVG([Calculation_1291970202011779082]) = AVG([Calculation_1291970202011901963]) AND ZN(SUM([Calculation_1291970202011901963])) - LOOKUP(ZN(SUM([Calculation_1291970202011901963])), -1) &gt; 0 THEN &apos;Red&apos;&#13;&#10;ELSEIF AVG([Calculation_1291970202011779082]) = AVG([Calculation_1291970202011901963]) AND ZN(SUM([Calculation_1291970202011901963])) - LOOKUP(ZN(SUM([Calculation_1291970202011901963])), -1) &lt; 0 THEN &apos;Red&apos;&#13;&#10;ELSE &apos;-&apos;&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='aide_apartment_price_origin' datatype='table' name='[__tableau_internal_object_id__].[aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Area Six Group No' datatype='string' name='[areaSixGroupNo]' role='dimension' type='nominal' />
+      <column caption='Average Price' datatype='real' name='[averagePrice]' role='measure' type='quantitative' />
+      <column caption='Average Pyeong' datatype='real' name='[averagePyeong]' role='measure' type='quantitative' />
+      <column caption='Bdong Code' datatype='string' name='[bdongCode]' role='dimension' type='nominal' />
+      <column caption='Complex Name' datatype='string' name='[complexName]' role='dimension' type='nominal' />
+      <column caption='Complex No' datatype='string' name='[complexNo]' role='dimension' type='nominal' />
+      <column caption='Contract Date' datatype='date' name='[contractDate]' role='dimension' type='ordinal' />
+      <column caption='Deal Price' datatype='integer' name='[dealPrice]' role='measure' type='quantitative' />
+      <column caption='Detail Address' datatype='string' name='[detailAddress]' role='dimension' type='nominal' />
+      <column caption='Final Processing' datatype='boolean' name='[finalProcessing]' role='dimension' type='nominal' />
+      <column caption='Floor' datatype='integer' name='[floor]' role='measure' type='quantitative' />
+      <column caption='High Floor' datatype='integer' name='[highFloor]' role='measure' type='quantitative' />
+      <column caption='Household Count By Pyeong' datatype='integer' name='[householdCountByPyeong]' role='measure' type='quantitative' />
+      <column caption='Interpolate' datatype='boolean' name='[interpolate]' role='dimension' type='nominal' />
+      <column caption='Is Floor' datatype='boolean' name='[isFloor]' role='dimension' type='nominal' />
+      <column caption='Is Real' datatype='boolean' name='[isReal]' role='dimension' type='nominal' />
+      <column caption='Jeonyong Area' datatype='real' name='[jeonyongArea]' role='measure' type='quantitative' />
+      <column caption='Jeonyong Pyeong' datatype='real' name='[jeonyongPyeong]' role='measure' type='quantitative' />
+      <column caption='Predict' datatype='boolean' name='[predict]' role='dimension' type='nominal' />
+      <column caption='Price Per Supply Pyeong' datatype='integer' name='[pricePerSupplyPyeong]' role='measure' type='quantitative' />
+      <column caption='Pyeong No' datatype='string' name='[pyeongNo]' role='dimension' type='nominal' />
+      <column caption='Sido Code' datatype='string' name='[sidoCode]' role='dimension' type='nominal' />
+      <column caption='Sigungu Code' datatype='string' name='[sigunguCode]' role='dimension' type='nominal' />
+      <column caption='Supply Area' datatype='real' name='[supplyArea]' role='measure' type='quantitative' />
+      <column caption='Supply Pyeong' datatype='real' name='[supplyPyeong]' role='measure' type='quantitative' />
+      <column caption='Threshold Under Price' datatype='real' name='[thresholdUnderPrice]' role='measure' type='quantitative' />
+      <column caption='Threshold Under Pyeong' datatype='real' name='[thresholdUnderPyeong]' role='measure' type='quantitative' />
+      <column caption='Threshold Upper Price' datatype='real' name='[thresholdUpperPrice]' role='measure' type='quantitative' />
+      <column caption='Threshold Upper Pyeong' datatype='real' name='[thresholdUpperPyeong]' role='measure' type='quantitative' />
+      <column caption='Total Household Count' datatype='integer' name='[totalHouseholdCount]' role='measure' type='quantitative' />
+      <column caption='Trade Month' datatype='integer' name='[tradeMonth]' role='dimension' type='quantitative' />
+      <column caption='Trade Type' datatype='string' name='[tradeType]' role='dimension' type='nominal' />
+      <column caption='Trade Year' datatype='integer' name='[tradeYear]' role='dimension' type='quantitative' />
+      <column caption='Use Approve Year' datatype='string' name='[useApproveYear]' role='dimension' type='nominal' />
+      <column caption='Year Month' datatype='date' name='[yearMonth]' role='dimension' type='ordinal' />
+      <column-instance column='[Calculation_1291970202008145924]' derivation='Avg' name='[avg:Calculation_1291970202008145924:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1291970202008223749]' derivation='Avg' name='[avg:Calculation_1291970202008223749:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1291970202008223749]' derivation='Sum' name='[sum:Calculation_1291970202008223749:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1291970202008145924]' derivation='User' name='[usr:Calculation_1291970202008145924:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1291970202008223749]' derivation='User' name='[usr:Calculation_1291970202008223749:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970201986387970:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[sum:Calculation_1291970201986387970:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970202008223749:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[sum:Calculation_1291970202008223749:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[usr:Calculation_1291970202008223749:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[usr:Calculation_1291970202008145924:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970202008145924:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970201986138113:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[sum:Calculation_1291970201986138113:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='aide_apartment_price_origin' id='aide_apartment_price_origin_BDD7B7707560499A9F54CDAC17F3EDD5'>
+            <properties context=''>
+              <relation connection='bigquery.0xg307m0lxjr631afcumy08s1vqw' name='aide_apartment_price_origin' table='[aidepartners.aide].[aide_apartment_price_origin]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='aide_apartment_price_origin(aide)' name='federated.1n8ic6b0a4y85t15o9hmp16xq244' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1n8ic6b0a4y85t15o9hmp16xq244'>
+            <column caption='고가' datatype='integer' name='[Calculation_1291970202008145924]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED  DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo]:MAX([dealPrice])}' />
+            </column>
+            <column caption='저가' datatype='integer' name='[Calculation_1291970202008223749]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo]: MIN([dealPrice])}' />
+            </column>
+            <column caption='시작가 날짜' datatype='date' name='[Calculation_1291970202011406344]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='{FIXED  DATETRUNC(&apos;quarter&apos;, [contractDate]), [complexNo], [areaSixGroupNo] : MIN([contractDate])}' />
+            </column>
+            <column caption='시작가' datatype='integer' name='[Calculation_1291970202011779082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [contractDate] = [Calculation_1291970202011406344] THEN [dealPrice] END' />
+            </column>
+            <column caption='Area Six Group No' datatype='string' name='[areaSixGroupNo]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1291970202008145924]' derivation='Avg' name='[avg:Calculation_1291970202008145924:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1291970202008223749]' derivation='Avg' name='[avg:Calculation_1291970202008223749:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1291970202011779082]' derivation='Avg' name='[avg:Calculation_1291970202011779082:qk]' pivot='key' type='quantitative' />
+            <column caption='Complex Name' datatype='string' name='[complexName]' role='dimension' type='nominal' />
+            <column caption='Complex No' datatype='string' name='[complexNo]' role='dimension' type='nominal' />
+            <column caption='Contract Date' datatype='date' name='[contractDate]' role='dimension' type='ordinal' />
+            <column caption='Deal Price' datatype='integer' name='[dealPrice]' role='measure' type='quantitative' />
+            <column caption='Final Processing' datatype='boolean' name='[finalProcessing]' role='dimension' type='nominal' />
+            <column caption='Is Floor' datatype='boolean' name='[isFloor]' role='dimension' type='nominal' />
+            <column datatype='boolean' name='[isProcessing1]' role='dimension' type='nominal' />
+            <column datatype='boolean' name='[isProcessing2]' role='dimension' type='nominal' />
+            <column datatype='boolean' name='[isProcessing3]' role='dimension' type='nominal' />
+            <column-instance column='[areaSixGroupNo]' derivation='None' name='[none:areaSixGroupNo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[complexName]' derivation='None' name='[none:complexName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[finalProcessing]' derivation='None' name='[none:finalProcessing:nk]' pivot='key' type='nominal' />
+            <column-instance column='[isFloor]' derivation='None' name='[none:isFloor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[isProcessing1]' derivation='None' name='[none:isProcessing1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[isProcessing2]' derivation='None' name='[none:isProcessing2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[isProcessing3]' derivation='None' name='[none:isProcessing3:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contractDate]' derivation='Day-Trunc' name='[tdy:contractDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contractDate]' derivation='Quarter-Trunc' name='[tqr:contractDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contractDate]' derivation='Year' name='[yr:contractDate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970202011779082:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970202008145924:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1n8ic6b0a4y85t15o9hmp16xq244].[avg:Calculation_1291970202008223749:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:areaSixGroupNo:nk]'>
+            <groupfilter function='member' level='[none:areaSixGroupNo:nk]' member='&quot;A3&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:complexName:nk]'>
+            <groupfilter function='member' level='[none:complexName:nk]' member='&quot;헬리오시티&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:finalProcessing:nk]'>
+            <groupfilter function='member' level='[none:finalProcessing:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isFloor:nk]'>
+            <groupfilter function='member' level='[none:isFloor:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing1:nk]'>
+            <groupfilter function='member' level='[none:isProcessing1:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing2:nk]'>
+            <groupfilter function='member' level='[none:isProcessing2:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing3:nk]'>
+            <groupfilter function='member' level='[none:isProcessing3:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[yr:contractDate:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2016' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2017' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2021' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2022' />
+              <groupfilter function='member' level='[yr:contractDate:ok]' member='2023' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[yr:contractDate:ok]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:complexName:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:areaSixGroupNo:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isFloor:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing1:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing2:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing3:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:finalProcessing:nk]</column>
+            <column>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[tqr:contractDate:qk]' field-type='quantitative' max='#2017-10-03 07:02:26.865#' min='#2016-03-22 20:21:48.636#' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[Multiple Values]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1n8ic6b0a4y85t15o9hmp16xq244].[tdy:contractDate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.42779004573822021' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[Multiple Values]</rows>
+        <cols>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[tqr:contractDate:qk]</cols>
+      </table>
+      <simple-id uuid='{BB87630D-32F5-4ED1-BC33-AE03B176FBE7}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[:Measure Names]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[md:contractDate:ok]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:areaSixGroupNo:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:complexName:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:contractDate:ok]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:finalProcessing:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isFloor:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing1:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing2:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[none:isProcessing3:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[qr:contractDate:ok]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[tqr:contractDate:qk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[usr:Calculation_1291970202012024845:nk]</field>
+            <field>[federated.1n8ic6b0a4y85t15o9hmp16xq244].[yr:contractDate:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5BB9DC73-BA5D-46F5-B013-AECF9A1D049D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

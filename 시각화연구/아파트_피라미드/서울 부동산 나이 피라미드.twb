@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='_16920631716830' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='서울시_아파트_오피스텔_피라미드' inline='true' name='federated.02xtnlj1fz7vl311ebm3f15f2zsn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='서울시_아파트_오피스텔_피라미드' name='textscan.06i79ad1rkoe83190pby51xd1b6h'>
+            <connection class='textscan' directory='C:/github/DashBoardForEveryBody/시각화연구/아파트_피라미드' filename='서울시_아파트_오피스텔_피라미드.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.06i79ad1rkoe83190pby51xd1b6h' name='서울시_아파트_오피스텔_피라미드.csv' table='[서울시_아파트_오피스텔_피라미드#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='useApproveYear' ordinal='0' />
+            <column datatype='integer' name='complexNo' ordinal='1' />
+            <column datatype='string' name='complexName' ordinal='2' />
+            <column datatype='integer' name='totalHouseholdCount' ordinal='3' />
+            <column datatype='string' name='realEstateTypeName' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.06i79ad1rkoe83190pby51xd1b6h' name='서울시_아파트_오피스텔_피라미드.csv' table='[서울시_아파트_오피스텔_피라미드#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='useApproveYear' ordinal='0' />
+            <column datatype='integer' name='complexNo' ordinal='1' />
+            <column datatype='string' name='complexName' ordinal='2' />
+            <column datatype='integer' name='totalHouseholdCount' ordinal='3' />
+            <column datatype='string' name='realEstateTypeName' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>useApproveYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[useApproveYear]</local-name>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias>useApproveYear</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complexNo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[complexNo]</local-name>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias>complexNo</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complexName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[complexName]</local-name>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias>complexName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalHouseholdCount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalHouseholdCount]</local-name>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias>totalHouseholdCount</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>realEstateTypeName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[realEstateTypeName]</local-name>
+            <parent-name>[서울시_아파트_오피스텔_피라미드.csv]</parent-name>
+            <remote-alias>realEstateTypeName</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='아파트' datatype='integer' name='[Calculation_1195705759801331712]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [realEstateTypeName] = &apos;아파트&apos; then [totalHouseholdCount]&#13;&#10;end' />
+      </column>
+      <column caption='오피스텔' datatype='integer' name='[Calculation_1195705759801585665]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [realEstateTypeName] = &apos;오피스텔&apos; then [totalHouseholdCount]&#13;&#10;end' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='서울시_아파트_오피스텔_피라미드.csv' datatype='table' name='[__tableau_internal_object_id__].[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]' role='measure' type='quantitative' />
+      <column caption='Complex Name' datatype='string' name='[complexName]' role='dimension' type='nominal' />
+      <column caption='Complex No' datatype='integer' name='[complexNo]' role='measure' type='quantitative' />
+      <column caption='Real Estate Type Name' datatype='string' name='[realEstateTypeName]' role='dimension' type='nominal' />
+      <column caption='Total Household Count' datatype='integer' name='[totalHouseholdCount]' role='measure' type='quantitative' />
+      <column caption='Use Approve Year' datatype='integer' name='[useApproveYear]' role='dimension' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='ko_KR' class='hyper' dbname='C:/github/DashBoardForEveryBody/시각화연구/아파트_피라미드/서울시_아파트_오피스텔_피라미드.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='08/15/2023 01:30:19 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='서울시_아파트_오피스텔_피라미드' increment-value='%null%' refresh-type='create' rows-inserted='14330' timestamp-start='2023-08-15 01:30:18.365' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>useApproveYear</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[useApproveYear]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>useApproveYear</remote-alias>
+              <ordinal>0</ordinal>
+              <family>서울시_아파트_오피스텔_피라미드.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>complexNo</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[complexNo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>complexNo</remote-alias>
+              <ordinal>1</ordinal>
+              <family>서울시_아파트_오피스텔_피라미드.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14330</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>complexName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[complexName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>complexName</remote-alias>
+              <ordinal>2</ordinal>
+              <family>서울시_아파트_오피스텔_피라미드.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7717</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>totalHouseholdCount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[totalHouseholdCount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>totalHouseholdCount</remote-alias>
+              <ordinal>3</ordinal>
+              <family>서울시_아파트_오피스텔_피라미드.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>811</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>realEstateTypeName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[realEstateTypeName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>realEstateTypeName</remote-alias>
+              <ordinal>4</ordinal>
+              <family>서울시_아파트_오피스텔_피라미드.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;실제&quot;</bucket>
+            <bucket>&quot;예상&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='서울시_아파트_오피스텔_피라미드.csv' id='서울시_아파트_오피스텔_피라미드.csv_89F0109A14364E20ACCC772EAC284216'>
+            <properties context=''>
+              <relation connection='textscan.06i79ad1rkoe83190pby51xd1b6h' name='서울시_아파트_오피스텔_피라미드.csv' table='[서울시_아파트_오피스텔_피라미드#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='useApproveYear' ordinal='0' />
+                  <column datatype='integer' name='complexNo' ordinal='1' />
+                  <column datatype='string' name='complexName' ordinal='2' />
+                  <column datatype='integer' name='totalHouseholdCount' ordinal='3' />
+                  <column datatype='string' name='realEstateTypeName' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Æ                                                                                                       </run>
+            <run bold='true'>아파트 vs 오피스텔 </run>
+            <run>Æ&#10;</run>
+            <run bold='true'>                                                                                                           나이 피라미드</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='서울시_아파트_오피스텔_피라미드' name='federated.02xtnlj1fz7vl311ebm3f15f2zsn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02xtnlj1fz7vl311ebm3f15f2zsn'>
+            <column caption='아파트' datatype='integer' name='[Calculation_1195705759801331712]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [realEstateTypeName] = &apos;아파트&apos; then [totalHouseholdCount]&#13;&#10;end' />
+            </column>
+            <column caption='오피스텔' datatype='integer' name='[Calculation_1195705759801585665]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [realEstateTypeName] = &apos;오피스텔&apos; then [totalHouseholdCount]&#13;&#10;end' />
+            </column>
+            <column-instance column='[useApproveYear]' derivation='None' name='[none:useApproveYear:qk]' pivot='key' type='quantitative' />
+            <column caption='Real Estate Type Name' datatype='string' name='[realEstateTypeName]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1195705759801331712]' derivation='Sum' name='[sum:Calculation_1195705759801331712:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1195705759801585665]' derivation='Sum' name='[sum:Calculation_1195705759801585665:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Household Count' datatype='integer' name='[totalHouseholdCount]' role='measure' type='quantitative' />
+            <column caption='Use Approve Year' datatype='integer' name='[useApproveYear]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]' included-values='in-range'>
+            <min>1970</min>
+            <max>2023</max>
+          </filter>
+          <slices>
+            <column>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]' scope='rows' value='건축년도' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]' value='10' />
+            <format attr='font-weight' field='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#e100044b' />
+            <format attr='stroke-color' id='refline1' value='#e100044b' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='div-level' scope='cols' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Use Approve Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>아파트:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]> 세대]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>오피스텔:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]> 세대]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ffffff' />
+                <format attr='mark-color' value='#a0cbe8' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='472' />
+                <format attr='maxwidth' value='472' />
+                <format attr='minheight' value='713' />
+                <format attr='maxheight' value='713' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>사용승인일 :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>아파트:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]> 세대]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>오피스텔:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]> 세대]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='8'>&lt;</run>
+                <run bold='true' fontsize='8'>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]</run>
+                <run bold='true' fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ffffff' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='472' />
+                <format attr='maxwidth' value='472' />
+                <format attr='minheight' value='713' />
+                <format attr='maxheight' value='713' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>사용승인일 :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>아파트:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk]> 세대]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>오피스텔:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]> 세대]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='8'>&lt;</run>
+                <run bold='true' fontsize='8'>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk]</run>
+                <run bold='true' fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ffffff' />
+                <format attr='mark-color' value='#ff9d9a' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='472' />
+                <format attr='maxwidth' value='472' />
+                <format attr='minheight' value='713' />
+                <format attr='maxheight' value='713' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]</rows>
+        <cols>([federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801331712:qk] + [federated.02xtnlj1fz7vl311ebm3f15f2zsn].[sum:Calculation_1195705759801585665:qk])</cols>
+      </table>
+      <simple-id uuid='{22E6C88E-8D1E-4C52-A128-74C7263ED557}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:realEstateTypeName:nk]</field>
+            <field>[federated.02xtnlj1fz7vl311ebm3f15f2zsn].[none:useApproveYear:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{08880535-7327-4AE3-B71C-23F2F3282029}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
