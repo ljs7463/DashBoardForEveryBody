@@ -1,3 +1,7 @@
+## 2023년 10월 16일 메인페이지 배치 작업, 행정구역 선택에 따른 그래프 변화, 임시 마크 삽입
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/b830d3fe-3a2b-4eca-9f6a-97b66fbdf854)
+
+
 ## 2023년 10월 12일 대시보드 메인페이지 포지션 체크 
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/24f36982-88b7-47b3-bf34-0e64644b6d46)
 
