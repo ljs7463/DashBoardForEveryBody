@@ -1662,8 +1662,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='35' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='37' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
                 <zone fixed-size='71' h='8400' id='6' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jeongseokLim/에이드파트너스/aide - 문서/3. 에이드파트너스/2. 에이드 로고/사본 -에이드 로고 파비콘.png' type-v2='bitmap' w='5118' x='1529' y='1600'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1894,8 +1894,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='35' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='37' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
                 <zone fixed-size='71' h='8400' id='6' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jeongseokLim/에이드파트너스/aide - 문서/3. 에이드파트너스/2. 에이드 로고/사본 -에이드 로고 파비콘.png' type-v2='bitmap' w='5118' x='1529' y='1600'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2124,14 +2124,13 @@
             <format attr='border-width' value='1' />
           </zone-style>
         </zone>
-        <zone h='5176' id='37' mode='dropdown' name='** 메인그래프1 (2)' param='[federated.16zv37f07yoheu1gcyhbg1pj8e7w].[none:bdongName:nk]' type-v2='filter' values='cascading' w='9412' x='69235' y='21059' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='40' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='42' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
                 <zone fixed-size='71' h='8400' id='6' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jeongseokLim/에이드파트너스/aide - 문서/3. 에이드파트너스/2. 에이드 로고/사본 -에이드 로고 파비콘.png' type-v2='bitmap' w='5118' x='1529' y='1600'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2191,15 +2190,6 @@
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
                     <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='5176' id='37' mode='dropdown' name='** 메인그래프1 (2)' param='[federated.16zv37f07yoheu1gcyhbg1pj8e7w].[none:bdongName:nk]' type-v2='filter' values='cascading' w='9412' x='69235' y='21059'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
                   </zone-style>
@@ -2380,8 +2370,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='35' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='37' param='vert' type-v2='layout-flow' w='99058' x='471' y='941'>
                 <zone fixed-size='71' h='8400' id='6' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jeongseokLim/에이드파트너스/aide - 문서/3. 에이드파트너스/2. 에이드 로고/사본 -에이드 로고 파비콘.png' type-v2='bitmap' w='5118' x='1529' y='1600'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2872,7 +2862,7 @@
       </viewpoint>
       <simple-id uuid='{ADFE67E5-3925-41A2-B0C1-F85D32D2372F}' />
     </window>
-    <window class='dashboard' maximized='true' name='메인 대시보드' tab-color='#f66273'>
+    <window class='dashboard' name='메인 대시보드' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='*메인그래프1'>
           <zoom type='entire-view' />
@@ -2892,7 +2882,7 @@
       <active id='-1' />
       <simple-id uuid='{A73A94DB-0DD2-44E7-B405-9D6ED98A6465}' />
     </window>
-    <window class='dashboard' name='법정동 대시보드' tab-color='#f66273'>
+    <window class='dashboard' maximized='true' name='법정동 대시보드' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='** 메인그래프1'>
           <zoom type='entire-view' />
