@@ -1,3 +1,9 @@
+## 2023년 10월 21일 메인페이지 사이드바 생성 및 수정, 대시보드 페이지 이동기능 추가 
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/8e475e8f-bf71-4e68-8ae3-4d347aa25f53)
+
+
+
+
 ## 2023년 10월 19일 메인 페이지 디자인 제외 작업완료 및 두번째 대시보드 진행
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/0b392050-d1eb-4b86-935b-7b62ee53c31e)
 
