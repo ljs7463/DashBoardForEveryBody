@@ -1,3 +1,8 @@
+## 2023년 10월 22일 대시보드 법정동 비교 페이지 작업 완료 및 마지막 페이지(단지비교) 작업 진행중
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/4ee44ee6-3b26-4c67-a0c1-a71f52c00ca8)
+
+
+
 ## 2023년 10월 21일 메인페이지 사이드바 생성 및 수정, 대시보드 페이지 이동기능 추가 
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/8e475e8f-bf71-4e68-8ae3-4d347aa25f53)
 
