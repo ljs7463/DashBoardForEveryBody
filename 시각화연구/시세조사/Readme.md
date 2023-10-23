@@ -1,3 +1,7 @@
+## 2023년 10월 23일 대시보드 단지비교 페이지 시군구 - 법정동 선택에 따른 대시보드 작업 완료
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/29f602f1-2a15-4425-b8e1-e26f27742730)
+
+
 ## 2023년 10월 22일 대시보드 법정동 비교 페이지 작업 완료 및 마지막 페이지(단지비교) 작업 진행중
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/4ee44ee6-3b26-4c67-a0c1-a71f52c00ca8)
 
