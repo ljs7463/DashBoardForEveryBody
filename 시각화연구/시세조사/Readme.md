@@ -1,3 +1,7 @@
+## 2023년 10월 24일 대시보드 사용성 개선을 위한 컨텐츠 추가와 컨텐츠 수량에 따른 디자인 수정
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/11d21b61-4d73-4103-bb0c-fac90f5b3b1b)
+
+
 ## 2023년 10월 23일 대시보드 단지비교 페이지 시군구 - 법정동 선택에 따른 대시보드 작업 완료
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/29f602f1-2a15-4425-b8e1-e26f27742730)
 
