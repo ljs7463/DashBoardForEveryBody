@@ -1,3 +1,8 @@
+## 2023년 10월 25일 대시보드 1차 완성(컨텐츠 변경 및 배치완료)
+(대시보드 내 단지비교 페이지의 모습)
+![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/d57d118c-f63b-463f-b81c-9e4df889b7b5)
+
+
 ## 2023년 10월 24일 대시보드 사용성 개선을 위한 컨텐츠 추가와 컨텐츠 수량에 따른 디자인 수정
 ![image](https://github.com/ljs7463/DashBoardForEveryBody/assets/66814045/11d21b61-4d73-4103-bb0c-fac90f5b3b1b)
 
